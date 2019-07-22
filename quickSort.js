@@ -18,4 +18,4 @@ const quickSort = (array) => {
     return sortedArray.concat(quickSort(left), pivot, quickSort(right));
 }
 
-console.log(quickSort([2,3,2,3,4,5,64,445,554,56,56,654,545,78,897]))
+console.log(quickSort([2,3,2,3,4,5,64,445,554,56,56,654,545,78,897]));
